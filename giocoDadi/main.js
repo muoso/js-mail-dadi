@@ -14,11 +14,6 @@
 
 
 
-
-
-
-
-
 /* 
 Esercizio di oggi: Mail e Gioco dei dadi
 nome repo: js-mail-dadi
