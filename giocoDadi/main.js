@@ -29,20 +29,6 @@ if (window.confirm("Sei pronto per giocare?")) {
 
 
 
-// Tirare due dadi per il giocatore
-// Tirare due dadi per il computer
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
