@@ -5,7 +5,7 @@ let emailList = ["matteo@gmail.com", "fabio @gmail.com", "pietro @gmail.com", "a
 if (emailList.includes(userEmail)) {
     window.alert("La tua mail è stata accettata, puoi proseguire con l'accesso");
 } else {
-    window.alert("Ci dispiace ma il tuo indirizzo non è stato accettato")
+    window.alert("Ci dispiace ma il tuo indirizzo non è stato accettato");
 }
 
 

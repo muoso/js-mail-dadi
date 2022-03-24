@@ -1,4 +1,32 @@
+let wannaPlay = true;
+let diceThrows = []
 
+if (window.confirm("Sei pronto per giocare?")) {
+
+    while (wannaPlay) {
+
+
+        for (let i = 0; i < diceThrows.length; i++) {
+
+        }
+
+        if (diceComputer > diceUser) {
+            //computer winse
+        } else if (diceComputer == diceUser) {
+            //draw
+        } else {
+            //you win
+        }
+        wannaPlay = window.confirm("Vuoi rigiocare?")
+    }
+
+}
+
+
+
+
+// Tirare due dadi per il giocatore
+// Tirare due dadi per il computer
 
 
 
