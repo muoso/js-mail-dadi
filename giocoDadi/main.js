@@ -1,23 +1,27 @@
 let wannaPlay = true;
-let diceThrows = []
+let diceThrow = [0, 0];
 
 if (window.confirm("Sei pronto per giocare?")) {
 
     while (wannaPlay) {
 
-
-        for (let i = 0; i < diceThrows.length; i++) {
-
+        for (let i = 0; i < diceThrow.length; i++) {
+            diceThrow[i] = Math.floor(Math.random() * 6) ;
+            if (i == 0) {
+                window.alert("Il numero del computer è: " + diceThrow[i]);
+            } else {
+                window.alert("Il tuo numero è: " + diceThrow[i]);
+            }
         }
 
-        if (diceComputer > diceUser) {
-            //computer winse
-        } else if (diceComputer == diceUser) {
-            //draw
+        if (diceThrow[0]> diceThrow[1]) {
+            window.alert("Ha vinto il computer!");
+        } else if (diceThrow[0] == diceThrow[1]) {
+            window.alert("Pareggio");
         } else {
-            //you win
+            window.alert("Hai vinto!");
         }
-        wannaPlay = window.confirm("Vuoi rigiocare?")
+        wannaPlay = window.confirm("Vuoi rigiocare?");
     }
 
 }
